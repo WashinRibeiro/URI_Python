@@ -1,0 +1,5 @@
+tempo = int(input())
+h = int(tempo / 60 / 60)
+m = int((tempo / 60) - (h * 60))
+s = int(tempo - ((h * 60 * 60) + (m * 60)))
+print(str(h) + ':' + str(m) + ':' + str(s))
